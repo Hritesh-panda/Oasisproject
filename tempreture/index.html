@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>tempreture</title>
+  </head>
+  <body>
+    <div class="body-content">
+      <div class="container">
+        <div class="card">
+          <h1 class="temp-header">Tempreture Converter</h1>
+          <div class="result">
+            <h4 class="result-c">result(celcius)</h4>
+            <h2 class="result-value" id="celcius"></h2>
+          </div>
+          <form action="" class="form">
+            <label for="">Degree</label> <input type="text" id="idegree" />
+            <label for="">Type</label>
+            <select name="tempreture" id="temp-type" autocomplete="on">
+              <option value="fahrenheit" id="ferenhite">ferenhite</option>
+              <option value="kelvine" id="kelvine">kelvine</option>
+            </select>
+          </form>
+          <button id="convert-btn">convert</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
